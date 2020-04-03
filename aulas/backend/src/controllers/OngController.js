@@ -9,7 +9,7 @@ module.exports = {
     },
 
     async create(request, response) {
-        const { name, email, whattapp, city, uf } = request.body;
+        const { name, email, whatsapp, city, uf } = request.body;
 
         const id = crypto.randomBytes(4).toString('HEX');
         //await pede para o node esperar um tempo mas tem de ser async
@@ -17,7 +17,7 @@ module.exports = {
             id,
             name,
             email,
-            whattapp,
+            whatsapp,
             city,
             uf,
         })
