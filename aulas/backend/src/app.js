@@ -10,4 +10,4 @@ app.use(express.json());//aqui avisa que as requisicao do resquest body sera em 
 app.use(route);
 app.use(errors());
 
-app.listen(3333);//escuta na porta 3333
+module.exports = app;
