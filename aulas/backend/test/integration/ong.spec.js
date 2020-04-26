@@ -5,7 +5,7 @@ const connection = require('../../src/database/connection');
 describe('Ong', () => {
 
     beforeEach(async () => {
-        await connection.migrate.rollback();
+       // await connection.migrate.rollback();
         await connection.migrate.latest();
     });
 
@@ -21,11 +21,12 @@ describe('Ong', () => {
                 uf: "SP"
             });
         expect(response.body).toHaveProperty('id');
-        expect(response.body.id).toHaveLength(8);
+        expect(response.body.id).toHaveLength(8);;
+
     });
 
     afterAll(async () => {
         await connection.destroy();
     });
 });
-//53/01:00
+//53//
