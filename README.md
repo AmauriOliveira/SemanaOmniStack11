@@ -43,4 +43,4 @@ Be the Hero feito na semana OmniStack 11 da  Rocketseat usando **NodeJS**, **Rea
 ![](https://i.imgur.com/wCkocH9.png)
 ![](https://i.imgur.com/3R6Tx36.png)
 ![](https://i.imgur.com/QWsmebN.jpg)
-![](https://i.imgur.com/HLTIGoa.jpg)t
+![](https://i.imgur.com/HLTIGoa.jpg)
